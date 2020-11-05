@@ -1,6 +1,4 @@
-# Python-API-challenge
-
-# Matplotlib-challenge - Pymaceuticals Inc.
+# Python-API-challenge - WeatherPy
 
 ## Table of contents
   * [Introduction](#introduction)
