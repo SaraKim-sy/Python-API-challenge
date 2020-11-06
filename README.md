@@ -41,6 +41,13 @@ This project is to create a python script to visualize the weather of 500+ citie
     * There seems to be a very weak correlation or no significant correlation between cloudiness and latitude, and wind speed and latitude. 
 
 ## <a name="api-keys"></a> API Keys
+The script uses the OpenWeatherMap API; therefore, to run this jupyter notebook, the OpenWeatherMap API keys will be required.
+
+The API key is available [here](https://home.openweathermap.org/) after creating an account and signing in. 
+
+Before running the notebook, make sure to create 'api_keys.py' file with **api_key = "Type your api key here"** in the 'WeatherPy' folder. 
+
+
 
 ## <a name="final-report"></a> Analysis Report
 The notebook displays the whole analysis is available in this link: [Analysis Report](https://nbviewer.jupyter.org/https://github.com/SaraKim-sy/Python-API-challenge/blob/main/WeatherPy/.ipynb_checkpoints/WeatherPy-checkpoint.ipynb)
