@@ -34,11 +34,13 @@ This project is to create a python script to visualize the weather of 500+ citie
 * The Latitude vs. Cloudiness scatter plot shows that there is no strong correlation between latitude and cloudiness. There are especially many cities with 0%, 40%, slightly under 80%, and 100% cloudiness, respectively, is also noteworthy.
 * It seems that there is no strong correlation between latitude and wind speed according to the Latitude vs. Wind Speed scatter plot. Most of the cities have wind speeds in the range of 0 mph and 20 mph. Some cities in the northern hemisphere have relatively higher wind speeds compared to cities in the southern hemisphere. 
 * Observable trends based on linear regression are the following:
-    * There is a strong negative correlation between temperature and latitude for the cities in the northern hemisphere. The fact that the correlation coefficient was about -0.86 also shows this relationship.
+    * There is a strong negative correlation between temperature and latitude for the cities in the northern hemisphere. The fact that the correlation coefficient was about -0.84 also shows this relationship.
     * There is a moderate positive correlation between temperature and latitude for the cities in the southern hemisphere. The fact that the correlation coefficient was about 0.68 also shows this relationship.
-    * There is a weak positive correlation between humidity and latitude for the cities in the northern hemisphere. The fact that the correlation coefficient was about 0.33 also shows this relationship. 
-    * There seems to be no correlation between humidity and latitude for the cities in the southern hemisphere. The correlation coefficient was about 0.01. 
-    * There seems to be a very weak correlation or no significant correlation between cloudiness and latitude, and wind speed and latitude. 
+    * There is a weak positive correlation between humidity and latitude for the cities in the northern hemisphere. The fact that the correlation coefficient was about 0.35 also shows this relationship. 
+    * There seems to be almost no correlation between humidity and latitude for the cities in the southern hemisphere. The correlation coefficient was about 0.09. 
+    * There seems to be a very weak correlation or no significant correlation between cloudiness and latitude.
+    * There is a very weak correlation or almost no corrleation between wind speed and latitude for the cities in the northern hemisphere. The correlation coefficient was about 0.23.
+    * There is a weak negative correlation between wind speed and latitude for the cities in the southern hemisphere. The correlation coefficient was about -0.38.
 
 ## <a name="api-keys"></a> API Keys
 The script uses the OpenWeatherMap API; therefore, to run this jupyter notebook, the OpenWeatherMap API keys will be required.
